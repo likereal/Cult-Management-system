@@ -1,0 +1,58 @@
+@font-face {
+    font-family: vis;
+    src: url(visitor1.ttf);
+}
+
+@font-face {
+    font-family: slk;
+    src: url(slkscre.ttf);
+}
+
+@keyframes bgcolor {
+    0% {
+        background-color: rgb(109, 201, 255)
+    }
+    30% {
+        background-color: rgb(255, 167, 167)
+    }
+    60% {
+        background-color: rgb(148, 255, 144)
+    }
+    90% {
+        background-color: pink
+    }
+    100% {
+        background-color: cyan
+    }
+}
+
+h1 {
+    font-family: 'slk';
+    color: red;
+    align-items: center;
+}
+
+body {
+    -webkit-animation: bgcolor 10s infinite;
+    animation: bgcolor 10s infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+    border-left: 50px;
+    border-color: rgb(255, 143, 255);
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-family: 'vis';
+    background-color: pink;
+    color: white;
+}
+
+p {
+    text-align: center;
+    font-size: 30px;
+    background-color: black;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}

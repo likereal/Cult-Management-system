@@ -1,0 +1,15 @@
+@font-face {
+    font-family: vis;
+    src: url(visitor1.ttf);
+}
+
+@font-face {
+    font-family: slk;
+    src: url(slkscre.ttf);
+}
+
+body {
+    font-family: 'vis';
+    background-color: black;
+    color: red;
+}

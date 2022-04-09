@@ -1,0 +1,133 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+/* .navbar navbar-expand-lg navbar-light bg-light{
+    color: #84B082;
+  } */
+.mainbg {
+  position: relative;
+  text-align: center;
+  color: white;
+  margin: auto;
+  z-index: 1;
+}
+
+.maintxt {
+  position: absolute;
+  top: 24%;
+  /* background-color: black; */
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 10vw;
+  color: rgb(255, 255, 255);
+  font-style: italic;
+}
+.down {
+  position: absolute;
+  top: 50%;
+
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-style: italic;
+  background-color: black;
+  left: 44%;
+  font-size: 3vw;
+  color: white;
+}
+#para1 {
+  position: absolute;
+  color: white;
+  background-color: black;
+  bottom: 3%;
+  font-size: 2vw;
+  font-style: italic;
+  font-family: inherit;
+  opacity: 0.6;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+#linki {
+  color: #ffe66d;
+}
+#linki:hover {
+  text-decoration: none;
+}
+#l1 {
+  text-align: center;
+  font-size: 3vw;
+  background-color: #f6bd60;
+}
+#l2 {
+  text-align: center;
+  font-size: 3vw;
+  background-color: #f5cac3;
+}
+#l3 {
+  text-align: center;
+  font-size: 3vw;
+  background-color: #84a59d;
+}
+#l4 {
+  text-align: center;
+  font-size: 3vw;
+  background-color: #b7b7a4;
+}
+#l5 {
+  text-align: center;
+  font-size: 3vw;
+  background-color: #d8bbff;
+}
+#l6 {
+  text-align: center;
+  font-size: 3vw;
+  background-color: #aaf683;
+}
+#botw {
+  margin-left: 45%;
+  padding-top: 2%;
+}
+#botws {
+  margin-left: 45%;
+}
+
+h1 {
+  text-align: center;
+  font-size: 4vw;
+  color: #2f4948;
+}
+.fter {
+  text-align: center;
+  margin-left: 5%;
+  font: 2em cursive;
+}
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.container {
+  position: relative;
+  width: 990px; /* Maximum width */
+  margin: 0 auto; /* Center it */
+}
+
+.container .content {
+  position: absolute;
+  bottom: 70%;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 962px;
+  padding: 20px;
+}
+#abot {
+  padding-top: 5%;
+}
